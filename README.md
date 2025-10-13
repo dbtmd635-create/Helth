@@ -1,28 +1,29 @@
-# ai 헬스 웹프로그램
-# 주요 기능 (Features)
+#AI Health Web Program
 
-운동 정보 조회
+Main Features
 
-부위별 운동 목록 출력 (가슴, 등, 하체 등)
+Exercise Information Retrieval
 
-각 운동별 설명, 주의사항, GIF 시각 자료 표시
+Displays exercise lists categorized by body parts (chest, back, lower body, etc.)
 
-운동 추천 시스템
+Provides detailed descriptions, precautions, and GIF-based visual guides for each exercise
 
-사용자의 목표(예: 근비대, 다이어트)에 맞춘 운동 추천
+Exercise Recommendation System
 
-향후 AI 추천 알고리즘 연동 가능 구조 설계
+Recommends exercises based on the user’s goals (e.g., muscle gain, fat loss)
 
-Spring MVC 구조 적용
+Designed with a structure that allows integration of future AI recommendation algorithms
 
-Controller : 사용자 요청 수신 및 처리
+Spring MVC Architecture Implementation
 
-Service : 비즈니스 로직 수행
+Controller: Handles user requests and routing
 
-Repository : 데이터 접근 계층 (JPA 기반)
+Service: Executes core business logic
 
-View : Thymeleaf 템플릿으로 HTML 렌더링
+Repository: Data access layer based on JPA
 
-RESTful API 설계 (선택 구현)
+View: Renders HTML using Thymeleaf templates
 
-/api/exercises 등으로 JSON 응답 제공 가능
+RESTful API Design (Optional)
+
+Provides JSON responses through endpoints such as /api/exercises
